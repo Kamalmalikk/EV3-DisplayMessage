@@ -1,0 +1,16 @@
+package //whatever
+import lejos.hardware.Button;
+
+ // HelloWorld example: prints to screen and waits for button press.
+
+public class HelloWorld 
+{
+  public static void main(String[] args) 
+	{ 	
+    // Print to LCD
+		System.out.println("Hello World");
+		Button.waitForAnyPress();
+	} 
+}
+
+// Click any button on EV3 to go back to display screen
